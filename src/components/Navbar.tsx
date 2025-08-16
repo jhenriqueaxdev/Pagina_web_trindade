@@ -21,6 +21,7 @@ export default function Navbar(){
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
             <a href="#sobre" className="hover:text-blue-700">Sobre</a>
+            <a href="#paroco" className="hover:text-blue-700">Pároco</a>
             <a href="#horarios" className="hover:text-blue-700">Horários</a>
             <a href="#ministerios" className="hover:text-blue-700">Pastorais</a>
             <a href="#eventos" className="hover:text-blue-700">Eventos</a>

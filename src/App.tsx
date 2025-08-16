@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Paroco from './components/Paroco'
 import About from './components/About'
 import Schedule from './components/Schedule'
 import Ministries from './components/Ministries'
@@ -16,6 +17,7 @@ export default function App(){
       <Navbar/>
       <Hero/>
       <About/>
+      <Paroco/>
       <Schedule/>
       <Ministries/>
       <Events/>
