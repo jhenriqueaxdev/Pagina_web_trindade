@@ -14,7 +14,7 @@ export default function About(){
             </ul>
           </div>
           <div className="overflow-hidden rounded-3xl shadow-lg ring-1 ring-slate-200">
-            <img src="src/matriz.png" alt=" igreja" className="w-full h-full object-cover" />
+            <img src="/matriz.png" alt=" igreja" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
