@@ -14,7 +14,7 @@ export default function About(){
             </ul>
           </div>
           <div className="overflow-hidden rounded-3xl shadow-lg ring-1 ring-slate-200">
-            <img src="https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1600&auto=format&fit=crop" alt="Interior de igreja" className="w-full h-full object-cover" />
+            <img src="src/assets/matriz.png" alt=" igreja" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
