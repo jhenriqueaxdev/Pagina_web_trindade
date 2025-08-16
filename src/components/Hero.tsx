@@ -2,7 +2,7 @@ export default function Hero(){
   return (
     <section id="inicio" className="relative isolate pt-28">
       <div className="absolute inset-0 -z-10">
-        <img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913?q=80&w=1920&auto=format&fit=crop" alt="Igreja" className="h-[520px] w-full object-cover" />
+        <img src="src/assets/base.png" alt="Igreja" className="h-[520px] w-full object-cover" />
         <div className="absolute inset-0 h-[520px] bg-gradient-to-t from-slate-900/80 via-slate-900/50 to-transparent"/>
       </div>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

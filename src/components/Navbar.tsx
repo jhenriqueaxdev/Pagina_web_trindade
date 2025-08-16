@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from '../assets/logo.png'
 import { parish } from '../data/config'
 import { Menu } from 'lucide-react'
 
@@ -9,10 +10,8 @@ export default function Navbar(){
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mt-3 mb-2 flex items-center justify-between rounded-2xl bg-white/85 backdrop-blur shadow-md px-4 py-3">
           <a href="#inicio" className="flex items-center gap-3 group">
-            <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white shadow">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 3v18M3 12h18"/>
-              </svg>
+            <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl text-white shadow overflow-hidden">
+              <img src={logo} alt="Logo" className="h-10 w-10 object-contain" />
             </span>
             <div className="leading-tight">
               <div className="font-extrabold tracking-tight">{parish.name.split(' ')[1]} {parish.name.split(' ')[2]}</div>

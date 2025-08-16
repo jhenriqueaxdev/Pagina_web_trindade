@@ -3,7 +3,7 @@ import { padre } from '../data/config'
 import { Mail, Phone, Calendar } from 'lucide-react'
 
 export default function Paroco(){
-  const photo = padre.photo || 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1200&auto=format&fit=crop'
+  const photo = padre.photo || 'src/assets/padre.jpg'
 
   return (
     <section id="paroco" className="py-16">
@@ -20,19 +20,6 @@ export default function Paroco(){
               <img src={photo} alt={`Foto do padre ${padre.name}`} className="w-full h-full object-cover" />
             </div>
 
-            {/* Contatos */}
-            <div className="mt-6 grid gap-3">
-              {padre.email && (
-                <a href={`mailto:${padre.email}`} className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700 shadow">
-                  <Mail size={18}/> Enviar e-mail
-                </a>
-              )}
-              {padre.phone && (
-                <a href={`tel:${padre.phone}`} className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 shadow">
-                  <Phone size={18}/> Ligar
-                </a>
-              )}
-            </div>
           </div>
 
           {/* Texto */}
