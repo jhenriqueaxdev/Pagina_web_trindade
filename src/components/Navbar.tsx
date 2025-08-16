@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../assets/logo.png'
+const logo = '/logo.png'
 import { parish } from '../data/config'
 import { Menu } from 'lucide-react'
 
