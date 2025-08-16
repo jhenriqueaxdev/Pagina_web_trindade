@@ -3,7 +3,7 @@ import { padre } from '../data/config'
 import { Mail, Phone, Calendar } from 'lucide-react'
 
 export default function Paroco(){
-  const photo = padre.photo || 'src/assets/padre.jpg'
+  const photo = padre.photo || '/padre.jpg'
 
   return (
     <section id="paroco" className="py-16">
